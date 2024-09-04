@@ -1,16 +1,19 @@
 # Dicionário para armazenar os alunos e suas respectivas notas
 alunos = {}
 
-# Função para cadastrar um aluno e suas notas
+# def, é uma função e dentro dela são as instruções
+# aqui vc cria uma funcao para cadastrar os alunos
 def cadastrar_aluno():
     nome = input("Digite o nome do aluno: ")
     
-    # Verifica se o aluno já está cadastrado
+    # if, significa "se", então se o aluno já está cadastrado
     if nome in alunos:
         print("Aluno já cadastrado.")
         return
     
-    # Solicita as notas do aluno
+    # pede as notas do aluno
+    # float é para se as notas são decimais
+    # input é para abir uma caixa de pergunta
     nota1 = float(input("Digite a primeira nota: "))
     nota2 = float(input("Digite a segunda nota: "))
     nota3 = float(input("Digite a terceira nota: "))
@@ -24,7 +27,7 @@ def calcular_media(nome):
     notas = alunos[nome]
     return sum(notas) / len(notas)
 
-# Função para exibir a situação do aluno
+# Função para verificar a situação do aluno
 def verificar_situacao():
     nome = input("Digite o nome do aluno para verificar a situação: ")
     
