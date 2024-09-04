@@ -26,10 +26,9 @@ def executar_calculadora_imc():
         
         #mostra a classificacao final
         classificacao = classificar_imc(imc)
-        
+
         #mostra o resultado
         print(f"\nSeu IMC é: {imc:.2f}")
         print(f"Classificação: {classificacao}")
-    
-# Executar a calculadora de IMC
+#executa a calculadora
 executar_calculadora_imc()
