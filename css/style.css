@@ -1,0 +1,27 @@
+header{
+    background: #5dc1f0;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+    header a {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+}
+header a:hover {
+    text-decoration: underline;
+    color: darkblue;
+    text-decoration: underline;
+}
+        
