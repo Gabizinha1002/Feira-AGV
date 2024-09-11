@@ -7,10 +7,9 @@ header{
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 30px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    padding: 25px;
+    position:relative;
+    width: 96%;
     }
     header a {
     text-align: center;
@@ -24,4 +23,31 @@ header a:hover {
     color: darkblue;
     text-decoration: underline;
 }
-        
+p{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os retângulos quebrem linha quando necessário */
+    justify-content: space-evenly; /* Distribui os itens com espaçamento uniforme */
+    gap: 0px; /* Espaçamento entre os retângulos */
+    
+}
+.topic {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: #012640; /* Cor de fundo azul-escuro */
+    color: white; /* Cor do texto */
+    padding: 20px;
+    width: 180px; /* Largura de cada retângulo */
+    min-height: 100px; /* Altura mínima de cada retângulo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor dos retângulos */
+    border-radius: 8px; /* Bordas arredondadas */
+    display: flex;
+    justify-content: center; /* Alinha o texto ao centro horizontalmente */
+    align-items: center; /* Alinha o texto ao centro verticalmente */
+    text-align: center; /* Centraliza o texto dentro do retângulo */
+}
