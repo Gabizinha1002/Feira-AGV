@@ -1,5 +1,5 @@
 header{
-    background: #5dc1f0;
+    background: #5d81a4;
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
@@ -20,19 +20,19 @@ header{
 }
 header a:hover {
     text-decoration: underline;
-    color: darkblue;
+    color:#283865;
     text-decoration: underline;
 }
-p{
+.description{
     font-family: Arial, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 .container {
     display: flex;
-    flex-wrap: wrap; /* Permite que os retângulos quebrem linha quando necessário */
+    flex-wrap:wrap; /* Permite que os retângulos quebrem linha quando necessário */
     justify-content: space-evenly; /* Distribui os itens com espaçamento uniforme */
-    gap: 0px; /* Espaçamento entre os retângulos */
+    gap: 2px; /* Espaçamento entre os retângulos */
     
 }
 .topic {
@@ -50,4 +50,21 @@ p{
     justify-content: center; /* Alinha o texto ao centro horizontalmente */
     align-items: center; /* Alinha o texto ao centro verticalmente */
     text-align: center; /* Centraliza o texto dentro do retângulo */
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+
+}
+h1{
+    font-family: Arial, sans-serif;
+    color:  #012640;
+    text-align: center;
+}
+
+
+h2{
+    font-family: Arial, sans-serif;
+    color:  #012640;
 }

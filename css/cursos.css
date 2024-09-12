@@ -1,0 +1,85 @@
+header{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
+    position:relative;
+    width: 96%;
+    }
+    header a {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: #000000;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+    header a:hover {
+        text-decoration: underline;
+        color:#283865;
+        text-decoration: underline;
+    }
+
+    .categoria{
+        background-color:#5d81a4;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        font-size: 15px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 25px;
+        position:relative;
+        width: 96%;
+        }
+        .categoria a {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #000000;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .categoria a:hover {
+            text-decoration: underline;
+            color:#283865;
+            text-decoration: underline;
+        }
+.manha{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.topic {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: #012640; /* Cor de fundo azul-escuro */
+    color: white; /* Cor do texto */
+    padding: 20px;
+    width: 180px; /* Largura de cada retângulo */
+    min-height: 100px; /* Altura mínima de cada retângulo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor dos retângulos */
+    border-radius: 8px; /* Bordas arredondadas */
+    display: flex;
+    justify-content: center; /* Alinha o texto ao centro horizontalmente */
+    align-items: center; /* Alinha o texto ao centro verticalmente */
+    text-align: center; /* Centraliza o texto dentro do retângulo */
+}
+.subsequente{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+h2{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #012640;
+}
+h3{
+    font-family: Arial, sans-serif;
+    color: #012640;
+}
