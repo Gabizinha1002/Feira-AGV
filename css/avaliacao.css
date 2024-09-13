@@ -24,51 +24,52 @@ header a:hover {
     text-decoration: underline;
 }
 
-.quadrado {
+.topic {
     text-decoration: none;
     font-family: Arial, sans-serif;
-    font-size: 18px;
-    background-color:  #89a1bb; /* Cor de fundo azul-escuro */
-    color: white; /* Cor do texto */
+    font-size: 25px;
+    background-color: #022e4e; 
+    color: white; 
     padding: 20px;
-    width: 90px; /* Largura de cada retângulo */
-    min-height: 40px; /* Altura mínima de cada retângulo */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor dos retângulos */
-    border-radius: 8px; /* Bordas arredondadas */
+    width: 180px; 
+    min-height: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
     display: flex;
-    justify-content: center; /* Alinha o texto ao centro horizontalmente */
-    align-items: center; /* Alinha o texto ao centro verticalmente */
-    text-align: center; /* Centraliza o texto dentro do retângulo */
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
     transition: transform 0.3s;
 }
-.quadrado:hover{
+
+.topic:hover{
     transform: scale(1.2);
 }
 .direcao{
     display: flex;
-    flex-wrap:wrap; /* Permite que os retângulos quebrem linha quando necessário */
-    justify-content: space-evenly; /* Distribui os itens com espaçamento uniforme */
-    gap: 2px; /* Espaçamento entre os retângulos */
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap: 2px;
 
 }
-.topic {
+.quadrado {
     text-decoration: none;
     font-family: Arial, sans-serif;
     font-size: 18px;
-    background-color: #012640; /* Cor de fundo azul-escuro */
-    color: white; /* Cor do texto */
+    background-color:  #89a1bb; 
+    color: white;
     padding: 20px;
-    width: 180px; /* Largura de cada retângulo */
-    min-height: 100px; /* Altura mínima de cada retângulo */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor dos retângulos */
-    border-radius: 8px; /* Bordas arredondadas */
+    width: 90px; 
+    min-height: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
     display: flex;
-    justify-content: center; /* Alinha o texto ao centro horizontalmente */
-    align-items: center; /* Alinha o texto ao centro verticalmente */
-    text-align: center; /* Centraliza o texto dentro do retângulo */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     transition: transform 0.3s;
-    }
-.topic:hover{
+}
+.quadrado:hover{
     transform: scale(1.2);
 }
 .manha{
@@ -131,4 +132,7 @@ h2{
 }
 h3{
     font-family: Arial, sans-serif;
+}
+body{
+    background-color: #d8e9fa;
 }
