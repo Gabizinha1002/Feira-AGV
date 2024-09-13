@@ -1,3 +1,6 @@
+body{
+    background-color: #d8e9fa;
+}
 header{
     background: #5d81a4;
     text-transform: uppercase;
@@ -39,7 +42,7 @@ header a:hover {
 .topic {
     text-decoration: none;
     font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     background-color: #022e4e; /* Cor de fundo azul-escuro */
     color: white; /* Cor do texto */
     padding: 20px;
@@ -51,6 +54,11 @@ header a:hover {
     justify-content: center; /* Alinha o texto ao centro horizontalmente */
     align-items: center; /* Alinha o texto ao centro verticalmente */
     text-align: center; /* Centraliza o texto dentro do retângulo */
+    transition: transform 0.3s;
+}
+
+.topic:hover{
+    transform: scale(1.2);
 }
 .direcao{
     display: flex;
@@ -74,8 +82,11 @@ header a:hover {
     justify-content: center; /* Alinha o texto ao centro horizontalmente */
     align-items: center; /* Alinha o texto ao centro verticalmente */
     text-align: center; /* Centraliza o texto dentro do retângulo */
+    transition: transform 0.3s;
 }
-
+.quadrado:hover{
+    transform: scale(1.2);
+}
 p{
     font-family: Arial, sans-serif;
     font-size: 25px;
@@ -91,4 +102,25 @@ h1{
 h2{
     font-family: Arial, sans-serif;
     color:  #012640;
+    text-align: center;
+}
+
+h3{
+    font-family: Arial, sans-serif;
+    color:  #012640;
+}
+
+ul{
+    font-family: Arial, sans-serif;
+    color:  #012640;
+}
+
+section p{
+    font-size: large;
+}
+
+section a{
+    text-decoration: underline;
+    color:#283865;
+    text-decoration: none;
 }
