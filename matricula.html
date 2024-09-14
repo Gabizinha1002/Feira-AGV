@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila de Espera</title>
+    <link rel="stylesheet" href="./css/matricula.css">
+</head>
+<body>
+    <h2>Fila de Espera</h2>
+    <form id="matricula-form">
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="numero">Número de Telefone:</label><br>
+        <input type="text" id="numero" name="numero" required><br><br>
+
+        <label for="curso">Curso Desejado:</label><br>
+        <input type="text" id="curso" name="curso" required><br><br>
+
+        <label for="periodo">Período:</label><br>
+        <select id="periodo" name="periodo" required>
+            <option value="Manhã">Manhã</option>
+            <option value="Tarde">Tarde</option>
+            <option value="Noite">Noite</option>
+        </select><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+        document.getElementById('matricula-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const formData = {
+                nome: document.getElementById('nome').value,
+                numero: document.getElementById('numero').value,
+                curso: document.getElementById('curso').value,
+                periodo: document.getElementById('periodo').value
+            };
+
+            fetch('https://seu-servidor-api.com/matricula', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert('Dados enviados com sucesso!');
+            })
+            .catch(error => {
+                console.error('Erro ao enviar os dados:', error);
+            });
+        });
+    </script>
+</body>
+</html>
