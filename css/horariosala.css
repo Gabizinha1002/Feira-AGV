@@ -12,12 +12,15 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
-.highlight {
+.brilho{
+    background-color: #ffffff;
+}
+.sombra{
     background-color: #d3d3d3;
 }
 h1{
     text-align: center;
 }
 body{
-    background-color: #ffffff;
+    background-color: #d8e9fa;
 }
