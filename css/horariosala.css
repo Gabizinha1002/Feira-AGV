@@ -12,14 +12,14 @@ th, td {
 th {
     background-color: #d3d3d3;
 }
-.brilho{
-    background-color:  #f2f2f2;
+h1{
+    text-align: center;
 }
 .sombra{
     background-color: #d3d3d3;
 }
-h1{
-    text-align: center;
+.brilho{
+    background-color: white;
 }
 body{
     background-color: #d8e9fa;
