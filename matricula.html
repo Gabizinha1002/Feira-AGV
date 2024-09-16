@@ -10,13 +10,13 @@
     <h2>Formulário de Matrícula</h2>
     <form id="matricula-form">
 
-        <label for="Nome">Nome Completo:</label><br>
+        <label for="nome">Nome Completo:</label><br>
         <input type="text" id="nome" name="nome" required><br><br>
 
-        <label for="Numero">Número de Telefone:</label><br>
+        <label for="numero">Número de Telefone:</label><br>
         <input type="text" id="numero" name="numero" required><br><br>
 
-        <label for="Curso">Curso Desejado:</label><br>
+        <label for="curso">Curso Desejado:</label><br>
         <select id="curso" name="curso" required>
             <option value="Desenvolvimento de Sistemas">Desenvolvimento de Sistemas</option>
             <option value="Portos">Portos</option>
@@ -25,14 +25,14 @@
             <option value="Regular">Regular</option>
             </select><br><br>
 
-        <label for="Periodo">Período:</label><br>
+        <label for="periodo">Período:</label><br>
         <select id="periodo" name="periodo" required>
             <option value="Manhã">Manhã</option>
             <option value="Tarde">Tarde</option>
             <option value="Noite">Noite</option>
         </select><br><br>
 
-        <label for="Cotas">Cotas:</label><br>
+        <label for="cotas">Cotas:</label><br>
         <select id="cotas" name="cotas" required>
             <option value="Sem Cotas">Sem Cotas</option>
             <option value="Pardo">Pardo</option>
@@ -53,11 +53,11 @@
             event.preventDefault();
             
             const formData = {
-                nome: document.getElementById('Nome').value,
-                numero: document.getElementById('Numero').value,
-                curso: document.getElementById('Curso').value,
-                periodo: document.getElementById('Periodo').value,
-                cotas: document.getElementById('Cotas').value
+                nome: document.getElementById('nome').value,
+                numero: document.getElementById('numero').value,
+                curso: document.getElementById('curso').value,
+                periodo: document.getElementById('periodo').value,
+                cotas: document.getElementById('cotas').value
             };
 
             fetch('https://api.sheetmonkey.io/form/ig9CUs7w52dHRERb9qMuo3', {
@@ -67,13 +67,6 @@
                 },
                 body: JSON.stringify(formData),
             })
-            .then(response => response.json())
-            .then(data => {
-                alert('Dados enviados com sucesso!');
-            })
-            .catch(error => {
-                console.error('Erro ao enviar os dados:', error);
-            });
         });
     </script>
 </body>
