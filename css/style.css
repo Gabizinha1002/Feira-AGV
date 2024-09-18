@@ -124,3 +124,53 @@ section a{
     color:#283865;
     text-decoration: none;
 }
+
+.duvida h3{
+    border: 2px solid #283865;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px;
+  }
+
+.duvida .resposta{
+    font-family: Arial, sans-serif;
+    color:  #012640;
+    border-right: 1px solid #012640;
+    border-bottom: 1px solid #012640;
+    border-left: 1px solid #012640;
+    border-radius: 0 0 8px 8px;
+    margin-top: -20px;
+    padding: 0 24px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.duvida.ativa .resposta{
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+  }
+
+#sobreaescola{
+    border: 2px solid #283865;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 28px;
+}
+
+footer{
+    background-color: #283865;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -5px;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 30px 60px;
+}
+
+footer h2,
+footer p,
+footer h3{
+    color: #d8e9fa;
+}
