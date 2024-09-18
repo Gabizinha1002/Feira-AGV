@@ -17,3 +17,7 @@ document.getElementById('matricula-form').addEventListener('submit', function(ev
         body: JSON.stringify(formData),
     })
 });
+
+function sucesso(){
+    window.location.href = "./espera.html"
+}
