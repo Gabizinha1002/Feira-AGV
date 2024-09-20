@@ -3,7 +3,6 @@ form.addEventListener('submit', async function (e) {
     e.preventDefault();
 
     // Coletar os dados do formulário
-    const nome = document.getElementById('nome').value;
     const opiniao = document.getElementById('opiniao').value;
 
     // Enviar os dados para o Google Sheets via Sheet Monkey
@@ -14,7 +13,6 @@ form.addEventListener('submit', async function (e) {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                nome: nome,
                 opiniao: opiniao
             }),
         });
