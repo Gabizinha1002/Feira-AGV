@@ -1,0 +1,70 @@
+body{
+    background-color: #d8e9fa;
+}
+.categoria{
+    background-color:#89a1bb;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
+    position:relative;
+    width: 96%;
+}
+.categoria a {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.categoria a:hover {
+    text-decoration: underline;
+    color:#283865;
+    text-decoration: underline;
+}
+
+.materias h3{
+    border: 2px solid #283865;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px;
+  }
+
+.materias .informacao{
+    font-family: Arial, sans-serif;
+    color:  #012640;
+    border-right: 1px solid #012640;
+    border-bottom: 1px solid #012640;
+    border-left: 1px solid #012640;
+    border-radius: 0 0 8px 8px;
+    margin-top: -20px;
+    padding: 0 24px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.materias.ativa .informacao{
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+  }
+
+.portos{
+    font-family: Arial, sans-serif;
+    color:  #012640;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0 50px;
+}
+h1{
+    text-align: center;
+
+}
+h2{
+    margin: 0 20px;
+}

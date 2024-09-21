@@ -97,20 +97,7 @@ p{
     margin: 0 100px;
 
 }
-h1{
-    font-family: Arial, sans-serif;
-    color:  #012640;
-    text-align: center;
-}
-
-
-h2{
-    font-family: Arial, sans-serif;
-    color:  #012640;
-    text-align: center;
-}
-
-h3{
+h1, h2, h3{
     font-family: Arial, sans-serif;
     color:  #012640;
     text-align: center;
