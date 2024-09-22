@@ -24,27 +24,6 @@ header a:hover {
     text-decoration: underline;
 }
 
-.topic {
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-size: 25px;
-    background-color: #022e4e; 
-    color: white; 
-    padding: 20px;
-    width: 180px; 
-    min-height: 100px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    border-radius: 8px; 
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    text-align: center; 
-    transition: transform 0.3s;
-}
-
-.topic:hover{
-    transform: scale(1.2);
-}
 .direcao{
     display: flex;
     flex-wrap:wrap;
@@ -74,4 +53,35 @@ header a:hover {
 }
 body{
     background-color: #d8e9fa;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+.news-item {
+    background-color:#5d81a4;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s;
+}
+.news-item:hover{
+    transform: scale(1.1);
+}
+.news-item h2 {
+    color: white;
+}
+.news-item p {
+    color: white;
+    line-height: 1.6;
+}
+
+.news-item img {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
 }

@@ -71,32 +71,18 @@ header a:hover {
 .quadrado:hover{
     transform: scale(1.2);
 }
-.jogos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-    gap: 2px;
-}
-.viagens{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-    gap: 2px;
-}
-.formatura{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-    gap: 2px;
-}
-
 h1{
     font-family: Arial, sans-serif;
     color:  #012640;
     text-align: center;
+}
+
+.eventos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 2px;
 }
 h2{
     font-family: Arial, sans-serif;
