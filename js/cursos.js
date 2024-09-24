@@ -1,7 +1,9 @@
-var elementosMaterias = document.querySelectorAll('.materias')
+/*
+var elementosAnos = document.querySelectorAll('.anos')
 
-elementosMaterias.forEach(function (materias){
-  materias.addEventListener('click', function (){
-   materias.classList.toggle('ativa')
+elementosAnos.forEach(function (anos){
+  anos.addEventListener('click', function (){
+   anos.classList.toggle('ativa')
   })
 })
+*/
