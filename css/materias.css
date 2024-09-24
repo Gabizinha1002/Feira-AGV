@@ -100,3 +100,39 @@ h1{
 h2{
     margin: 0 20px;
 }
+
+h4{
+    font-family: Arial, sans-serif;
+    color:  #012640;
+    font-size: 18px;
+}
+
+.anos h4{
+    border: 3px solid #283865;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px;
+  }
+
+.anos .materias{
+    font-family: Arial, sans-serif;
+    color:  #012640;
+    border-right: 1px solid #012640;
+    border-bottom: 1px solid #012640;
+    border-left: 1px solid #012640;
+    border-radius: 0 0 8px 8px;
+    margin-top: -20px;
+    padding: 0 24px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.anos.ativa .materias{
+    height: fit-content;
+    opacity: 1;
+    padding: 30px;
+    margin: 0px;
+    margin-top: -28px;
+ }
