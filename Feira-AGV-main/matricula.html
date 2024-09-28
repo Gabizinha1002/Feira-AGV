@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Matrícula</title>
+    <link rel="stylesheet" href="./css/matricula.css">
+</head>
+<body>
+    <h2>Formulário de Matrícula</h2>
+    <form id="matricula-form">
+
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="numero">Número de Telefone:</label><br>
+        <input type="text" id="numero" name="numero" required><br><br>
+
+        <label for="curso">Curso Desejado:</label><br>
+        <select id="curso" name="curso" required>
+            <option value="Desenvolvimento de Sistemas">Desenvolvimento de Sistemas</option>
+            <option value="Portos">Portos</option>
+            <option value="Administração">Administração</option>
+            <option value="Biotecnologia">Biotecnologia</option>
+            <option value="Regular">Regular</option>
+            </select><br><br>
+
+        <label for="periodo">Período:</label><br>
+        <select id="periodo" name="periodo" required>
+            <option value="Manhã">Manhã</option>
+            <option value="Tarde">Tarde</option>
+            <option value="Noite">Noite</option>
+        </select><br><br>
+
+        <label for="cotas">Cotas:</label><br>
+        <select id="cotas" name="cotas" required>
+            <option value="Sem Cotas">Sem Cotas</option>
+            <option value="Pardo">Pardo</option>
+            <option value="Indigena">Indigena</option>
+            <option value="Negro">Negro</option>
+            <option value="Deficiente">Deficiente</option>
+            <option value="Baixa Renda">Baixa Renda</option>
+            <option value="Escola Publica">Escola Publica</option>
+        </select><br><br>
+
+
+
+        <button onclick="sucesso()">Enviar</button>
+
+    </form>
+<script src="./js/matricula.js"></script>
+</body>
+</html>
