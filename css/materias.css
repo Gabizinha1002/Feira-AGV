@@ -1,7 +1,7 @@
 header{
     background: #5d81a4;
     text-transform: uppercase;
-    color: #000000;
+    color: black;
     font-weight: bold;
     font-size: 15px;
     text-decoration: none;
@@ -87,8 +87,8 @@ body{
 
 .estudo{
     font-family: Arial, sans-serif;
-    color:  #012640;
-    font-size: 18px;
+    color:  black;
+    font-size: 20px;
     padding: 10px;
     margin: 0 50px;
 }
