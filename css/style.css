@@ -167,3 +167,29 @@ footer p,
 footer h3{
     color: #d8e9fa;
 }
+
+
+
+.news {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 98%;
+    background-color: #89a1bb;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.noticia {
+    color: white;
+    display: inline-block;
+    animation: deslizar 13s linear infinite;
+}
+
+@keyframes deslizar {
+    0% {
+        transform: translateX(150%); /* Inicia fora da tela à direita */
+    }
+    100% {
+        transform: translateX(-100%); /* Move para fora da tela à esquerda */
+    }
+}
