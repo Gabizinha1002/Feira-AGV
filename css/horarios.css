@@ -76,7 +76,7 @@ header a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: start;
     gap: 2px;
 }
 .tarde{
