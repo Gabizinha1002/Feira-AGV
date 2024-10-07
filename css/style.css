@@ -182,12 +182,12 @@ footer h3{
 .noticia {
     color: white;
     display: inline-block;
-    animation: deslizar 13s linear infinite;
+    animation: deslizar 10s linear infinite;
 }
 
 @keyframes deslizar {
     0% {
-        transform: translateX(150%); /* Inicia fora da tela à direita */
+        transform: translateX(400%); /* Inicia fora da tela à direita */
     }
     100% {
         transform: translateX(-100%); /* Move para fora da tela à esquerda */
