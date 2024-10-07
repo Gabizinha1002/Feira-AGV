@@ -30,7 +30,7 @@ header a:hover {
     font-size: 25px;
     background-color: #022e4e; 
     color: white; 
-    padding: 20px;
+    padding: 30px;
     width: 180px; 
     min-height: 100px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -40,6 +40,7 @@ header a:hover {
     align-items: center; 
     text-align: center; 
     transition: transform 0.3s;
+    margin: 3px
 }
 
 .topic:hover{
@@ -93,9 +94,49 @@ header a:hover {
     justify-content: start;
     gap: 2px;
 }
-h1{
+h1 {
+    font-family: Arial, sans-serif;
+    color:  #012640;
     text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    color:  #012640;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+
 }
 body{
     background-color: #d8e9fa;
 }
+
+.categoria{
+    background-color:#89a1bb;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
+    position:relative;
+    width: 96%;
+    }
+    .categoria a {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+    .categoria a:hover {
+        text-decoration: underline;
+        color:#283865;
+        text-decoration: underline;
+    }
