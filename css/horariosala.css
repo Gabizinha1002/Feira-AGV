@@ -21,3 +21,10 @@ h1{
 .brilho{
     background-color: #ffffff;
 }
+
+.linha p{
+    width: 98%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
