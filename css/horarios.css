@@ -1,3 +1,9 @@
+body{
+    background-color: #d8e9fa;
+    margin: 0;
+    padding: 0;
+}
+
 header{
     background: #5d81a4;
     text-transform: uppercase;
@@ -111,10 +117,6 @@ h2 {
     padding-bottom: 20px;
 
 }
-body{
-    background-color: #d8e9fa;
-}
-
 .categoria{
     background-color:#89a1bb;
     text-transform: uppercase;
