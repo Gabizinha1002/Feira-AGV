@@ -34,8 +34,8 @@ header a:hover {
 .container {
     display: flex;
     flex-wrap:wrap; 
-    justify-content: space-evenly; 
-    gap: 2px; 
+    justify-content: center; 
+    gap: 50px; 
     
 }
 
@@ -47,7 +47,7 @@ header a:hover {
     color: white; 
     padding: 20px;
     width: 180px; 
-    min-height: 100px;
+    min-height: 60px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 8px; 
     display: flex;
