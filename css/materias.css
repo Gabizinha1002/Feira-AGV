@@ -118,10 +118,8 @@ h4{
 .anos .materias{
     font-family: Arial, sans-serif;
     color:  #012640;
-    border-right: 1px solid #012640;
-    border-bottom: 1px solid #012640;
-    border-left: 1px solid #012640;
-    border-radius: 0 0 8px 8px;
+    border: 1px solid #012640;
+    border-radius: 0 8px;
     margin-top: -20px;
     padding: 0 24px;
     height: 0;
@@ -135,5 +133,5 @@ h4{
     opacity: 1;
     padding: 30px;
     margin: 0px;
-    margin-top: -28px;
+    margin-top: -21px;
  }
